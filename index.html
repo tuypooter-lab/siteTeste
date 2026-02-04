@@ -16,7 +16,8 @@
                 <li> <a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projeto">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+                        target="_blank">Google</a></li>
                 <!-- <li> Sobre mim </li> -->
             </ul>
         </nav>
@@ -26,8 +27,10 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
 
-        <img src="https://imgs.search.brave.com/viEKxzTkzhWXn2C1TvI2Wz3iJg27RIqElorzc6FXr8A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTE5/ODA2MjQ3L3B0L2Zv/dG8vdXJ1dGF1Lmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1G/a3NYNDNUZmo2QjRO/aHdzRUZkY2FDVlZq/NTM3MDBvZHdHc29u/a29UUGVRPQ alt="imagem de foto de perfil." title="imagem de perfil"> 
-
+        <img src="https://imgs.search.brave.com/xcCYt5s1mfMEJ_JRQs-w31aEynQLDKf99gO57tU0emY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDg1/NDQ3MjE3L3B0L2Zv/dG8vZXN0YSVDMyVB/NyVDMyVCNWVzLWRl/LWFsdGVyYSVDMyVB/NyVDMyVBM28uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVRy/dFJfV3luMTZrTk8x/SEQ4NG5QNnJYeV9l/bHlTMEFabGxFRUFF/US1vdTQ9"
+         alt="imagem de foto de perfil."
+             title="imagem de perfil">
+           
         <article>
 
             <p>
@@ -78,6 +81,41 @@
                 E-mail: <a href="mailto:tuypotter@gmail.com">tuypotter@gmail.com</a> <br>
                 Telefone: <a href="tel:+5599999">+99</a>
             </address>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                  <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                  <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>  
+
+                <br>
+            
+
+                <label for="mensagem">Mensagem: </label> 
+                <textarea name="mensagem" id="mensagem" cols="30"  rows="10" required></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber a minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+
+
+            </form>
 
         </section>
     </footer>
